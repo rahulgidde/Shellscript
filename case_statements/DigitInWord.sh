@@ -6,7 +6,7 @@ read -p "Enter The Single Digit Number: " digit
 #DISPLAY DIGIT IN WORDS
 case $digit in
 
-	1)
+1)
 		echo "One"
 		;;
    2)

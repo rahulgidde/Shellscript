@@ -11,22 +11,22 @@ then
 	then
 		echo "true"
 	else
-		 	if [ $day -le 31 -a $month -eq  4 ]
+		if [ $day -le 31 -a $month -eq  4 ]
+		then
+			echo "true"
+		else
+			if [ $day -le 30  -a $month -eq 5 ]
 			then
 				echo "true"
 			else
-					if [ $day -le 30  -a $month -eq 5 ]
-					then
-						echo "true"
-					else
-							if [ $day -le 20 -a $month -eq 6 ]
-							then
-								echo "true"
-							else
-								echo "flase"
-							fi
-					fi
+				if [ $day -le 20 -a $month -eq 6 ]
+				then
+					echo "true"
+				else
+					echo "flase"
+				fi
 			fi
+		fi
 	fi
 else
 	echo "Invalid Month Enter The Month Between March To June:"

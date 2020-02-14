@@ -1,43 +1,38 @@
 #!/bin/bash -x
 
 #TAKE USER INPUT
-read -p "Enter The Single Digit Number: " digit
+read -p "Enter The Number Between 0 to 9: " number
 
-#DISPLAY DIGIT IN WORDS
-case $digit in
-
-
+#DISPLAY THE DAY IN WEEK
+case $number in
 	1)
 		echo "One"
 		;;
-   2)
+	2)
 		echo "Two"
 		;;
-   3)
+	3)
 		echo "Three"
 		;;
-   4)
+	4)
 		echo "Four"
 		;;
-   5)
+	5)
 		echo "Five"
 		;;
-   6)
+	6)
 		echo "Six"
 		;;
-   7)
+	7)
 		echo "Seven"
 		;;
-   8)
-		echo  "Eight"
+	8)
+		echo "Eight"
 		;;
-   9)
-		echo  "Nine"
+	9)
+		echo "Nine"
 		;;
-   0)
-		echo  "Zero"
-		;;
-   *)
-		echo "Invalid Number:"
+	*)
+		echo  "Invalid Number:"
 		;;
 esac

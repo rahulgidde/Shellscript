@@ -6,36 +6,36 @@ read -p "Enter The Single Digit Number: " digit
 #DISPLAY DIGIT IN WORDS
 case $digit in
 	1)
-	echo "One"
-	;;
+		echo "One"
+		;;
    2)
-	echo "Two"
-	;;
+		echo "Two"
+		;;
    3)
-	echo "Three"
-	;;
+		echo "Three"
+		;;
    4)
-	echo "Four"
-	;;
+		echo "Four"
+		;;
    5)
-	echo "Five"
-	;;
+		echo "Five"
+		;;
    6)
-	echo "Six"
-	;;
+		echo "Six"
+		;;
    7)
-	echo "Seven"
-	;;
+		echo "Seven"
+		;;
    8)
-	echo  "Eight"
-	;;
+		echo  "Eight"
+		;;
    9)
-	echo  "Nine"
-	;;
+		echo  "Nine"
+		;;
    0)
-	echo  "Zero"
-	;;
+		echo  "Zero"
+		;;
    *)
-	echo "Invalid Number:"
-	;;
+		echo "Invalid Number:"
+		;;
 esac

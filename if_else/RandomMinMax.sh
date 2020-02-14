@@ -11,19 +11,15 @@ number5=$((RANDOM%900+100))
 if [ $number1 -gt $number2 -a $number1 -gt $number3 -a $number1 -gt $number4 -a $number1 -gt $number5 ]
 then
 	maximum=$r1
-
 elif [ $number2 -gt $number3 -a $number2 -gt $number4 -a $number2 -gt $number5 ]
 then
 	maximum=$number2
-
 elif [ $number3 -gt $number4 -a $number3 -gt $number5 ]
 then
 	maximum=$number3
-
 elif [ $number4 -gt $number5 ]
 then
 	maximum=$number4
-
 else
 	maximum=$number5
 fi

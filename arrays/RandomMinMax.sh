@@ -46,7 +46,7 @@ function getLargest()
 		fi
 	done
 	echo $largest
-   echo $secondLargest
+	echo $secondLargest
 }
 
 #FUNCTION CALL TO GET SECOND Largest NUMBER

@@ -6,7 +6,7 @@ read -p  "Enter Number: " number
 #VARIABLE
 count=0
 
-## CALCULATE PRIME FACTORIZATION
+#CALCULATE PRIME FACTORIZATION
 for (( index=2; index<=$number; ))
 do
 	if [ $(( number % index )) -eq 0 ]
